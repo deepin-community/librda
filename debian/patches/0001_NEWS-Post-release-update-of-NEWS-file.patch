@@ -1,0 +1,34 @@
+From b76f6aeb5caee75eccac2fdfd95c9386819319b4 Mon Sep 17 00:00:00 2001
+From: Mike Gabriel <mike.gabriel@das-netzwerkteam.de>
+Date: Sun, 3 Feb 2019 23:22:18 +0100
+Subject: [PATCH] NEWS: Post-release update of NEWS file.
+
+---
+ NEWS | 9 ++++++++-
+ 1 file changed, 8 insertions(+), 1 deletion(-)
+
+diff --git a/NEWS b/NEWS
+index 8edd5e3..088df3b 100644
+--- a/NEWS
++++ b/NEWS
+@@ -1,3 +1,10 @@
++Overview of changes in librda 0.0.5
++
++    - Fix make distcheck.
++    - Include technology related header files as public API.
++    - Get --enable-<remote-tech> options working as one would
++      expect it.
++
+ Overview of changes in librda 0.0.4
+ 
+     - Fix include path (Cflags: field) in rda.pc file.
+@@ -18,4 +25,4 @@ Overview of changes in libra 0.0.2
+ 
+ Overview of changes in librda 0.0.1
+ 
+-    - Initial release.
+\ No newline at end of file
++    - Initial release.
+-- 
+2.11.0
+

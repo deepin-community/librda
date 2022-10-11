@@ -1,0 +1,74 @@
+librda (0.0.5-1.1) unstable; urgency=medium
+
+  * Non-maintainer upload.
+  * debian/rules: Build with dh gir sequence (Closes: #991088)
+
+ -- Sebastian Ramacher <sramacher@debian.org>  Mon, 26 Jul 2021 22:53:33 +0200
+
+librda (0.0.5-1) unstable; urgency=medium
+
+  * New upstream release.
+  * debian/patches:
+    + Add 0001_NEWS-Post-release-update-of-NEWS-file.patch.
+
+ -- Mike Gabriel <sunweaver@debian.org>  Sun, 03 Feb 2019 23:16:11 +0100
+
+librda (0.0.4-1) unstable; urgency=medium
+
+  * New upstream release.
+  * debian/patches:
+    + Drop 0001_src-rda.pc.in-Fix-Cflags-field.-Use-rda-subfolder-
+      as.patch. Applied upstream.
+
+ -- Mike Gabriel <sunweaver@debian.org>  Tue, 22 Jan 2019 10:43:29 +0100
+
+librda (0.0.3-2) unstable; urgency=medium
+
+  * debian/patches:
+    + Cherry-pick 0001_src-rda.pc.in-Fix-Cflags-field.-Use-rda-subfolder-
+      as.patch from upstream.
+
+ -- Mike Gabriel <sunweaver@debian.org>  Sun, 20 Jan 2019 00:30:55 +0100
+
+librda (0.0.3-1) unstable; urgency=medium
+
+  * New upstream release.
+  * debian/{control,librda-bin.install}:
+    + Add librda-bin bin:pkg.
+  * debian/copyright:
+    + Update copyright attributions.
+  * debian/{control,compat}:
+    + Drop compat. Use debhelper-compat notation in control. Bump to DH compat
+      level version 12.
+  * debian/control:
+    + Bump Standards-Version: to 4.3.0. No changes needed.
+  * debian/librda0.symbols:
+    + Update symbols file.
+
+ -- Mike Gabriel <sunweaver@debian.org>  Sat, 19 Jan 2019 01:20:05 +0100
+
+librda (0.0.2-1) unstable; urgency=medium
+
+  * New upstream release.
+  * debian/copyright:
+    + Update copyright attributions.
+  * debian/librda0.symbols:
+    + Update symbols list.
+  * debian/{control,rules,et. al}:
+    + Add bin:pkg gir1.2-rda-1.0. Enable introspection.
+    + Add bin:pkg librda-common (for translation files, etc.).
+  * debian/rules:
+    + Add dh_missing --fail-missing override.
+    + Add dh_install override that removes librda.la before wrapping up.
+  * debian/librda0.symbols:
+    + Add Build-Depends-Package: meta-info field.
+  * debian/librda0.install:
+    + At EOL at EOF.
+
+ -- Mike Gabriel <sunweaver@debian.org>  Sat, 10 Nov 2018 00:14:19 +0100
+
+librda (0.0.1-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #906067).
+
+ -- Mike Gabriel <sunweaver@debian.org>  Sun, 09 Sep 2018 00:22:34 +0200

@@ -1,0 +1,380 @@
+2019-02-03 01:47:56 +0100 Mike Gabriel (3170c1a)
+
+	* release 0.0.5 (HEAD -> master, tag: 0.0.5)
+
+2019-01-25 23:09:44 +0100 Mike Gabriel (2f2681e)
+
+	* configure.ac: Remove line of debug code.
+
+2019-01-25 23:09:13 +0100 Mike Gabriel (e9b4abf)
+
+	* configure.ac: Fix enable/disable switches for supported RD
+          technologies.
+
+2019-01-25 22:45:15 +0100 Mike Gabriel (c6d7ccf)
+
+	* src/rda.c: Initialize GList objects in
+          rda_supported_technologies{,_by_name}() functions.
+
+2019-01-22 16:12:29 +0100 Mike Gabriel (5aa4cf0)
+
+	* Support 'make distcheck'.
+
+2019-01-22 14:06:30 +0100 Mike Gabriel (5668efb)
+
+	* Add NEWS file that contains condensed ChangeLog items.
+
+2019-01-22 10:41:46 +0100 Mike Gabriel (113e97c)
+
+	* release 0.0.4 (tag: 0.0.4)
+
+2019-01-20 00:26:24 +0100 Mike Gabriel (d308efa)
+
+	* src/rda.pc.in: Fix Cflags: field. Use rda/ subfolder as include
+          path.
+
+2019-01-19 01:50:32 +0100 Mike Gabriel (9088dd7)
+
+	* update translation files
+
+2019-01-19 01:49:54 +0100 Mike Gabriel (0ba0382)
+
+	* util/rdacheck.c: Amend output string slightly.
+
+2019-01-19 01:48:41 +0100 Mike Gabriel (91f14c0)
+
+	* util/rdacheck.c: Drop non-functional call to
+          rda_supported_technologies_by_name().
+
+2019-01-19 01:14:21 +0100 Mike Gabriel (31fc50a)
+
+	* release 0.0.3 (tag: 0.0.3)
+
+2019-01-19 01:12:13 +0100 Mike Gabriel (fd85613)
+
+	* debian/control: Used same version for librda-dev and
+          gir1.2-rda-1.0.
+
+2019-01-19 01:08:02 +0100 Mike Gabriel (b6004d6)
+
+	* debian/librda0.symbols: pre-release symbols update (once more).
+
+2019-01-19 01:07:32 +0100 Mike Gabriel (0e251cc)
+
+	* debian/copyright: Update copyright attributions.
+
+2019-01-19 00:54:49 +0100 Mike Gabriel (5b5a39d)
+
+	* debian/librda-bin.install: Install man page into librda-bin
+          bin:pkg.
+
+2019-01-19 00:53:44 +0100 Mike Gabriel (d6c899a)
+
+	* rdacheck: Add minimalistic man page.
+
+2019-01-19 00:44:11 +0100 Mike Gabriel (8e53638)
+
+	* debian/*: Add new bin:pkg librda-bin.
+
+2019-01-19 00:43:40 +0100 Mike Gabriel (3d3449c)
+
+	* tests/test-x2go.c: Add editor style hints. Fix copyright line.
+
+2019-01-19 00:41:10 +0100 Mike Gabriel (b4ba489)
+
+	* happy new year
+
+2019-01-19 00:39:47 +0100 Mike Gabriel (527f549)
+
+	* util/rdacheck.c: Update header (comment + copyright year).
+
+2019-01-19 00:34:19 +0100 Mike Gabriel (1f55f45)
+
+	* debian/librda0.symbols: Update symbols.
+
+2019-01-19 00:28:15 +0100 Mike Gabriel (5ae2fca)
+
+	* rdacheck: Add little tool that reports about what RDA detects.
+
+2019-01-19 00:26:22 +0100 Mike Gabriel (74e8e01)
+
+	* src/rda.h: Include rda_supported_technologies via non-local path.
+
+2019-01-19 00:25:29 +0100 Mike Gabriel (b03516e)
+
+	* Make rda_supported_technologies*() return GList objects.
+
+2019-01-18 23:58:31 +0100 Mike Gabriel (2f0245c)
+
+	* Update .pot file and .po files.
+
+2019-01-18 23:53:50 +0100 Mike Gabriel (b1d63c6)
+
+	* po/: Add src/rda_ogon.c to POTFILES.in.
+
+2019-01-18 23:53:18 +0100 Mike Gabriel (edbf6d7)
+
+	* Add rda_supported_technologies_by_name() function that sends
+          technology names to g_message().
+
+2019-01-18 23:51:37 +0100 Mike Gabriel (b61fd22)
+
+	* Move special remote technology pretty names to .c files providing
+          features for that technology.
+
+2019-01-18 23:44:34 +0100 Mike Gabriel (3f5cd65)
+
+	* Fix wrong WITH_REMOTE_AWARENESS_*** macro names.
+
+2019-01-18 22:53:49 +0100 Mike Gabriel (3aab09c)
+
+	* debian/changelog: post-release version bump
+
+2019-01-11 16:19:20 +0000 Louies (6fbe510)
+
+	* Translated using Weblate (Chinese (Traditional))
+
+2019-01-08 15:02:15 +0000 Louies (a7a8175)
+
+	* Translated using Weblate (Chinese (Traditional))
+
+2018-12-30 15:16:29 +0000 Alex (02f6310)
+
+	* Translated using Weblate (Russian)
+
+2018-11-27 19:59:12 +0000 Kristjan Räts (e4a1600)
+
+	* Translated using Weblate (Estonian)
+
+2018-11-20 17:43:47 +0000 Whod (2ab6704)
+
+	* Translated using Weblate (Bulgarian)
+
+2018-11-18 06:38:37 +0000 ssantos (d304c88)
+
+	* Translated using Weblate (Portuguese)
+
+2018-11-13 11:10:48 +0000 Ryo Nakano (1591e13)
+
+	* Translated using Weblate (Japanese)
+
+2018-11-10 18:54:11 +0000 hadii (971f81d)
+
+	* Translated using Weblate (Persian)
+
+2018-11-09 19:34:59 +0100 Mike Gabriel (b912380)
+
+	* release 0.0.2 (tag: 0.0.2)
+
+2018-11-09 19:34:26 +0100 Mike Gabriel (6388ef6)
+
+	* Update translation files.
+
+2018-11-09 12:49:49 +0100 Mike Gabriel (9c0f5f7)
+
+	* src/rda.h: Include rda_supported_technologies.h from local folder.
+
+2018-11-06 00:17:56 +0100 Mike Gabriel (1d87a98)
+
+	* debian/control: Add B-D: libgirepository1.0-dev.
+
+2018-11-06 00:08:30 +0100 Mike Gabriel (45ecc0b)
+
+	* debian/rules: Explicitly enable introspection support.
+
+2018-11-05 23:58:16 +0100 Mike Gabriel (d72ba23)
+
+	* src/rda_supported_technologies.h.in: Generate header file that
+          knows what RDA technologies are supported after build.
+
+2018-11-03 17:07:42 +0000 Kamen (b2554cf)
+
+	* Translated using Weblate (Bulgarian)
+
+2018-11-02 13:23:30 +0100 Mike Gabriel (c7b1a76)
+
+	* debian/*: Add gir1.2-rda-1.0 bin:package.
+
+2018-11-02 13:23:08 +0100 Mike Gabriel (6b5af06)
+
+	* src/Makefile.am: Always compile rda_x2go.c and rda_ogon.c files.
+          This partially reverts 9f217413.
+
+2018-11-02 13:21:48 +0100 Mike Gabriel (5fee3b6)
+
+	* automake: Add GObject Introspection support.
+
+2018-11-02 13:20:32 +0100 Mike Gabriel (cd0a738)
+
+	* src/rda.c: Don't fail if no remote technology is enabled at
+          configure time.
+
+2018-11-02 11:28:10 +0000 Mike Gabriel (85917b9)
+
+	* src/rda_*.c: White-space fix at end of file.
+
+2018-11-02 11:27:48 +0000 Mike Gabriel (238450c)
+
+	* configure.ac: For the configure summary, set enable_<rdp-type>=no
+          if not explicitly enabled.
+
+2018-10-30 17:57:29 +0000 Daniel D McNaughton (9e21707)
+
+	* Translated using Weblate (Russian)
+
+2018-10-22 16:21:45 +0200 Mike Gabriel (b25af68)
+
+	* Merge branch 'rbuj-defines'
+
+2018-10-13 10:06:48 +0200 rbuj (9f21741)
+
+	* librda_la_SOURCES: add conditional sources
+
+2018-10-22 16:19:18 +0200 Mike Gabriel (100f8ad)
+
+	* Merge branch 'rbuj-sources'
+
+2018-10-13 10:06:48 +0200 rbuj (36c36e0)
+
+	* librda_la_SOURCES: add conditional sources
+
+2018-10-12 23:52:29 +0200 rbuj (614e86d)
+
+	* Fix defines: WITH_X2GO_AWARENESS, WITH_OGON_AWARENESS
+
+2018-10-09 22:07:58 +0000 Ricardo A. Hermosilla Carrillo (331a95b)
+
+	* Translated using Weblate (Spanish)
+
+2018-10-01 00:56:05 +0000 Kristoffer Grundström (b1df221)
+
+	* Translated using Weblate (Swedish)
+
+2018-09-27 13:03:23 +0000 Володимир Бриняк (3a0999c)
+
+	* Translated using Weblate (Ukrainian)
+
+2018-09-19 15:41:13 +0000 Viktar Vauchkevich (565c520)
+
+	* Translated using Weblate (Belarusian)
+
+2018-09-12 19:53:04 +0000 Allan Nordhøy (8be46b6)
+
+	* Translated using Weblate (Norwegian Bokmål)
+
+2018-09-11 20:19:05 +0200 Mike Gabriel (e49d1d5)
+
+	* Add COPYING file (LGPL-2+).
+
+2018-09-08 23:35:35 +0200 Mike Gabriel (706db45)
+
+	* release 0.0.1 (tag: 0.0.1)
+
+2018-09-08 23:16:59 +0200 Mike Gabriel (e9f60c0)
+
+	* debian/copyright: Add .pot file to copyright.
+
+2018-09-08 23:16:41 +0200 Mike Gabriel (0c7295f)
+
+	* debian/rules: Typo fix.
+
+2018-09-08 23:03:07 +0200 Mike Gabriel (675a2dd)
+
+	* debian/control: Use GH URLs in Vcs-*: fields.
+
+2018-09-08 23:01:45 +0200 Mike Gabriel (1fc1cb2)
+
+	* debian/copyright: Use secure URL in Format: field.
+
+2018-09-08 22:59:39 +0200 Mike Gabriel (7ae0753)
+
+	* debian/control: Add pkg-config to B-Ds.
+
+2018-09-08 22:59:14 +0200 Mike Gabriel (2908362)
+
+	* debian/control: Bump Standards-Version: to 4.2.1. No changes
+          needed.
+
+2018-09-08 22:57:40 +0200 Mike Gabriel (a99b872)
+
+	* debian/rules: Keep --with-autoreconf, as we build with DH compat
+          level 9 (for stretch compatibility).
+
+2018-09-08 22:51:07 +0200 Mike Gabriel (4d78301)
+
+	* po/de.po: Update German translation.
+
+2018-09-08 22:50:11 +0200 Mike Gabriel (8e6f85c)
+
+	* po/: Merge new .pot template into translation files.
+
+2018-09-08 22:48:44 +0200 Mike Gabriel (574c248)
+
+	* po/librda.pot: Update translation template.
+
+2018-09-08 22:48:26 +0200 Mike Gabriel (aff4dc2)
+
+	* debian/copyright: Update copyright attributions.
+
+2018-09-08 22:48:06 +0200 Mike Gabriel (001aa2e)
+
+	* debian/rules: Enable X2Go and Ogon awareness. Enable all hardening
+          build flags.
+
+2018-09-08 22:39:13 +0200 Mike Gabriel (b3c03d9)
+
+	* configure.ac: Replace deprecated by AC_HELP_STRING by
+          AS_HELP_STRING.
+
+2018-09-08 21:19:38 +0200 Mike Gabriel (9b5d2bf)
+
+	* configure.ac et al.: Make it possible to enable/disable awareness
+          for the supported remote desktop technologies at build
+          time.
+
+2018-09-08 14:45:01 +0200 Mike Gabriel (d087cb3)
+
+	* configure.ac: Be happy with GLib-2.0 >= 2.37. Should be sufficient
+          (resolves FTBFS on Ubuntu 16.04).
+
+2018-09-08 14:33:01 +0200 Mike Gabriel (b1b804c)
+
+	* src/*.h: Fix file names in comment header.
+
+2018-09-08 12:19:07 +0200 Mike Gabriel (195bc94)
+
+	* debian/control: Add B-D: gobject-introspection.
+
+2018-07-02 16:14:10 +0200 Mike Gabriel (c74a30b)
+
+	* Ogon RDP support: initial draft to support Ogon RDP as remote
+          desktop technology.
+
+2018-06-28 15:28:32 +0200 Mike Gabriel (e21efc9)
+
+	* src/rda_x2go.c: Some tab stop fixes.
+
+2018-06-28 15:27:32 +0200 Mike Gabriel (2b9bd5c)
+
+	* src/rda.c: Report a desktop session as local, if XDG_SEAT env var
+          is set in the session. Good enough for a start, I guess.
+
+2018-06-27 12:36:04 +0000 Mike Gabriel (eaaefb9)
+
+	* src/rda_x2go.c: Use g_spawn_command_line_sync() for
+          suspending/terminating X2Go Sessions.
+
+2018-06-27 11:34:04 +0000 Mike Gabriel (cd1f301)
+
+	* src/rda.pc.in: Make people use <rda/rda.h> in include headers,
+          rather than <rda.h>.
+
+2018-06-27 11:22:51 +0000 Mike Gabriel (a93280d)
+
+	* src/rda.h: Fix prototype for rda_session_suspend(). Add prototype
+          for rda_session_terminate().
+
+2018-06-27 11:04:15 +0200 Mike Gabriel (670a132)
+
+	* initial draft of the RDA shared library
+
